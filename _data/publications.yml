@@ -1,22 +1,60 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: Long-context llms struggle with long in-context learning
+    authors: <strong>Tianle Li</strong>, Ge Zhang, Quy Duc Do, Xiang Yue, Wenhu Chen
+    conference_short: arXiv preprint
+    pdf: https://arxiv.org/pdf/2404.02060
+    code: https://github.com/TIGER-AI-Lab/LongICLBench
+    image: ./assets/img/longICL.png
+    notes: preprint
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "GenAI Arena: An Open Evaluation Platform for Generative Models"
+    authors: Dongfu Jiang*, Max Ku*, <strong>Tianle Li*</strong>, Yuansheng Ni, Shizhuo Sun, Rongqi Fan, Wenhu Chen
+    conference_short: arXiv preprint
+    pdf: https://arxiv.org/pdf/2406.04485
+    code: https://huggingface.co/spaces/TIGER-Lab/GenAI-Arena
+    image: ./assets/img/genai_arena.png
+    notes: preprint
+
+  - title: "Mmlu-pro: A more robust and challenging multi-task language understanding benchmark"
+    authors: Yubo Wang, Xueguang Ma, Ge Zhang, Yuansheng Ni, Abhranil Chandra, Shiguang Guo, Weiming Ren, Aaran Arulraj, Xuan He, Ziyan Jiang, <strong>Tianle Li</strong>, Max Ku, Kai Wang, Alex Zhuang, Rongqi Fan, Xiang Yue, Wenhu Chen
+    conference_short: arXiv preprint
+    pdf: https://arxiv.org/pdf/2406.01574
+    code: https://github.com/TIGER-AI-Lab/MMLU-Pro
+    image: ./assets/img/mmlu-pro.png
+    notes: preprint
+
+  - title: "Imagenhub: Standardizing the evaluation of conditional image generation models"
+    authors: Max Ku, <strong>Tianle Li</strong>, Kai Zhang, Yujie Lu, Xingyu Fu, Wenwen Zhuang, Wenhu Chen
+    conference_short: ICLR 2024
+    pdf: https://arxiv.org/pdf/2310.01596
+    code: https://tiger-ai-lab.github.io/ImagenHub/
+    image: ./assets/img/imagenhub.png
+
+  - title: "DreamEdit: Subject-driven Image Editing"
+    authors: <strong>Tianle Li</strong>, Max Ku, Cong Wei, Wenhu Chen
+    conference_short: TMLR 2023
+    pdf: https://arxiv.org/pdf/2306.12624
+    code: https://dreameditbenchteam.github.io/
+    image: ./assets/img/dream_edit.png
+
+  - title: "Few-shot In-context Learning for Knowledge Base Question Answering"
+    authors: <strong>Tianle Li</strong>, Xueguang Ma, Alex Zhuang, Yu Gu, Yu Su, Wenhu Chen
+    conference_short: ACL 2023
+    pdf: https://arxiv.org/pdf/2305.01750
+    code: https://github.com/ltl3A87/KB-BINDER
+    image: ./assets/img/kb-binder.png
+
+  - title: "AnaMeta: A Table Understanding Dataset of Field Metadata Knowledge Shared by Multi-dimensional Data Analysis Tasks"
+    authors: Xinyi He, Mengyu Zhou, Mingjie Zhou, Jialiang Xu, Xiao Lv, <strong>Tianle Li</strong>, Yijia Shao, Shi Han, Zejian Yuan, Dongmei Zhang
+    conference_short: ACL 2023 Findings
+    pdf: https://arxiv.org/pdf/2209.00946
+    image: ./assets/img/metadata.png
+
+  - title: "Fake news detection with heterogeneous transformer"
+    authors: <strong>Tianle Li</strong>, Yushi Sun, Shang-ling Hsu, Yanjia Li, Raymond Chi-Wing Wong
+    conference_short: arXiv preprint
+    pdf: https://arxiv.org/pdf/2205.03100
+    code: https://github.com/HetTransformer/HetTransformer-model
+    image: ./assets/img/HetTransformer.png
+
